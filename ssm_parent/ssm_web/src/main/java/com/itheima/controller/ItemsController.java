@@ -14,6 +14,7 @@ public class ItemsController {
     @Autowired
     private ItemsService itemsService;
 //ÄãºÃ
+//ÄãºÃ
     @RequestMapping("/findAll")
     public String findAll(Model model) {
         List<Items> list = itemsService.findAll();
