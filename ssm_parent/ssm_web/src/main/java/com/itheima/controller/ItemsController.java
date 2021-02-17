@@ -20,6 +20,7 @@ public class ItemsController {
 		//你好
 //我是老大
 		//我也是老大
+		//我才是老大
 
         List<Items> list = itemsService.findAll();
         model.addAttribute("list", list);
