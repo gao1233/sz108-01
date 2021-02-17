@@ -23,6 +23,7 @@ public class ItemsController {
 
     @RequestMapping("/insert")
     public String insert(Items items) {
+		//ÄãºÃ°¡
         itemsService.insert(items);
         return "redirect:/findAll";
     }
