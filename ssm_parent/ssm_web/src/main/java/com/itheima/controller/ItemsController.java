@@ -13,7 +13,7 @@ import java.util.List;
 public class ItemsController {
     @Autowired
     private ItemsService itemsService;
-
+//ÄãºÃ
     @RequestMapping("/findAll")
     public String findAll(Model model) {
         List<Items> list = itemsService.findAll();
