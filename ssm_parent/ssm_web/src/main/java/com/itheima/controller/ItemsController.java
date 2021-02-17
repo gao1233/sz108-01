@@ -18,6 +18,7 @@ public class ItemsController {
     @RequestMapping("/findAll")
     public String findAll(Model model) {
 		//你好
+		//我也是老大
         List<Items> list = itemsService.findAll();
         model.addAttribute("list", list);
         return "items";
